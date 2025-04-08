@@ -1,1 +1,6 @@
-
+main {
+    margin: var(--6);
+}
+.main-title {
+    font-size: var(--fs-xl);
+}

@@ -4,9 +4,9 @@
 	/* colors */
 	--white: hsl(0, 0%, 95%);
 	--black: hsl(0, 0%, 15%);
-	--gray: hsl(0, 0%, 65%);
+	--gray: hsl(0, 0%, 90%);
 	--primary: hsl(341, 75%, 68%);
-  --primary-light: hsl(350, 55%, 83%);
+	--primary-light: hsl(350, 55%, 83%);
 
 	/* spacing */
 	--1: 0.25rem;
@@ -27,6 +27,9 @@
 	--fs-sm: var(--3);
 	--fs-md: var(--5);
 	--fs-xl: var(--7);
+
+	/* custom */
+	--border: var(--3);
 }
 
 @layer reset {
@@ -51,8 +54,10 @@
 	h2,
 	h3 {
 		line-height: 1;
-    color: var(--primary);
-    font-weight: 900;
+		font-weight: 900;
+	}
+	h1 {
+		color: var(--primary);
 	}
 	img {
 		max-width: 100%;
