@@ -1,26 +1,20 @@
 import { useState } from 'react';
 import './videoPreview.css';
 
-function VideoPreview() {
+function VideoPreview({ thumbnail, module, title, progress, link }) {
 	return (
 		<div className='video-preview'>
 			<div>
-				<img
-					src='https://placehold.co/600x600'
-					className='video-preview--thumbnail'
-					alt='Thumbnail'
-				/>
+				<img src={thumbnail} className='video-preview--thumbnail' />
 			</div>
 			<div>
 				<div className='video-preview--top'>
-					<p className='video-preview--module'>Módulo 1</p>
-					<p className='video-preview--name'>
-						Conceptos clave de planificación y productividad
-					</p>
+					<p className='video-preview--module'>Módulo {module}</p>
+					<p className='video-preview--name'>{title}</p>
 				</div>
 				<div className='video-preview--bottom'>
-					<span className='progress-bar' value='27'></span>
-					<a href='/' className='video-preview--link'>
+					<span className='progress-bar' value={progress}></span>
+					<a href={link} className='video-preview--link'>
 						Ver
 					</a>
 				</div>

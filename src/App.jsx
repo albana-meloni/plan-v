@@ -13,7 +13,13 @@ function App() {
 			<h1 className='main-title'>Plan V</h1>
 			<p>No venís a improvisar. Venís a planificar tu versión real.</p>
 			<h2>{handleInfoTitle()}</h2>
-			<VideoPreview></VideoPreview>
+			<VideoPreview
+				thumbnail='https://placehold.co/600x400'
+				module='1'
+				title='Conceptos clave de planificación y productividad'
+				progress='27'
+				link='/'
+			/>
 		</main>
 	);
 }
