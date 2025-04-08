@@ -7,11 +7,14 @@ section {
     gap: var(--6);
     margin-block: var(--6);
 }
-.video-container {
+.video-container, .content-container {
     display: flex;
     flex-direction: column;
     gap: var(--5);
     margin-block-start: var(--5);
+}
+.content-container {
+    margin-block-start: var(--2);
 }
 .main-title {
     font-size: var(--fs-xl);

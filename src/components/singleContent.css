@@ -1,0 +1,8 @@
+.content-info {
+    font-size: var(--fs-sm);
+    margin-block-end: var(--1);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}

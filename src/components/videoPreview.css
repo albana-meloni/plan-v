@@ -43,20 +43,6 @@
 	justify-content: space-between;
 	gap: var(--3);
 }
-.progress-bar {
-	width: 100px;
-	background-color: var(--gray);
-	height: var(--2);
-	position: relative;
-}
-.progress-bar::after {
-	content: '';
-	position: absolute;
-	background-color: var(--primary);
-	width: attr(value px);
-	height: inherit;
-	border-radius: inherit;
-}
 .video-preview--link {
 	--video-preview-border: var(--2);
 	background-color: var(--primary-light);
