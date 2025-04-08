@@ -16,8 +16,17 @@ section {
 .content-container {
     margin-block-start: var(--2);
 }
+
+.main-heading {
+    padding-block: var(--6);
+}
 .main-title {
-    font-size: var(--fs-xl);
+    font-size: calc(var(--fs-xl)  * 1.2);
+    text-align: center;
+}
+.main-subtitle {
+    text-align: center;
+    font-size: var(--fs-sm);
 }
 
 .progress-bar {

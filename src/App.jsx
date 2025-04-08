@@ -11,8 +11,12 @@ function App() {
 	}
 	return (
 		<main>
-			<h1 className='main-title'>Plan V</h1>
-			<p>No venís a improvisar. Venís a planificar tu versión real.</p>
+			<div className='main-heading'>
+				<h1 className='main-title'>Plan V</h1>
+				<p className='main-subtitle'>
+					No venís a improvisar. Venís a planificar tu versión real.
+				</p>
+			</div>
 			<section>
 				<article>
 					<h2>{handleInfoTitle()}</h2>
