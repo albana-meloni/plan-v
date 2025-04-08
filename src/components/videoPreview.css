@@ -40,10 +40,11 @@
 .video-preview--bottom {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	gap: var(--3);
 }
 .progress-bar {
-	width: 100%;
+	width: 100px;
 	background-color: var(--gray);
 	height: var(--2);
 	position: relative;
@@ -52,7 +53,7 @@
 	content: '';
 	position: absolute;
 	background-color: var(--primary);
-	width: 27%;
+	width: attr(value px);
 	height: inherit;
 	border-radius: inherit;
 }
